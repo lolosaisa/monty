@@ -38,4 +38,8 @@ typedef struct instruction_s
         void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
+
+int main(int argc, char *argv[]);
+void l_pall(Stack *stack);
+void l_push(Stack *stack, int value);
 #endif
